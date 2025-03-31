@@ -81,15 +81,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Development Setup
-
-### SSH Setup for GitHub
-1. Generate SSH key:
-```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-2. Add the SSH key to your GitHub account
-3. Update remote URL to use SSH:
-```bash
-git remote set-url origin git@github.com:Captain1014/chattie.git
-```
